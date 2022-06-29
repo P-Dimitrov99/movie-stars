@@ -12,15 +12,7 @@ namespace MovieStars
     {
         //First we need our MovieStar class with all the necessary properties.
         //I added an extra property "age" because we will need to print the age instead of the date of birth.
-        public class MovieStar
-        {
-            public DateTime dateOfBirth { get; set; }
-            public string Name { get; set; }
-            public string Surname { get; set; }
-            public string Sex { get; set; }
-            public string Nationality { get; set; }
-            public int age { get; set; }
-        }
+        
         static void Main(string[] args)
         {   
             //Here I am creating a list which will be holding the objects once read from the input.txt file.
